@@ -1,24 +1,23 @@
 #!/usr/bin/env node
+// var program = require('commander');
+var callProcess = require('child_process');
 
-// const program = require('commander');
-const callProcess = require('child_process');
+var co = require('co');
+var prompt = require('co-prompt');
+var colors = require('colors');
 
-const co = require('co');
-const prompt = require('co-prompt');
-const colors = require('colors');
-
-const execFileSync = callProcess.execFileSync;
-const spawn = callProcess.spawn;
+var execFileSync = callProcess.execFileSync;
+var spawn = callProcess.spawn;
 
 
-const fse = require('fs-extra');
-const path = require('path');
+var fse = require('fs-extra');
+var path = require('path');
 
-const ACTION_CREATE = 0;
-const ACTION_BUILD = 1;
+var ACTION_CREATE = 0;
+var ACTION_BUILD = 1;
 
-const moduleName = 'tihelper';
-const isWin32 = process.platform === 'win32';
+var moduleName = 'tihelper';
+var isWin32 = process.platform === 'win32';
 
 var conf = null;
 var appModulesPath = '',
@@ -58,7 +57,7 @@ colors.setTheme({
 
 var execTi = function(pmsg, pcallback) {
     if (tiArgv)
-        const ti = spawn(ticmd, tiArgv);
+        var ti = spawn(ticmd, tiArgv);
     else
         throw new Error(colors.error('the param of Ti does not exist'));
     console.log(colors.info('tiArgv=' + tiArgv));

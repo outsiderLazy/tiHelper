@@ -1,6 +1,6 @@
 {
-  "name": "timodulehelper",
-  "version": "1.0.0",
+  "name": "tihelper",
+  "version": "1.0.1",
   "description": "",
   "main": "build.js",
   "bin": {
