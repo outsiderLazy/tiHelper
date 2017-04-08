@@ -22,9 +22,9 @@ npm install -g tihelper
 	2.APP和Module之间会建立一个联系（通过conf.json记录两个工程的路径），这是下面要讲的tihelper build命令的基础。
 	3.目录结构不一样。假如我们执行ti helper的时候，输入的Project Name为Test.那么生成的目录结构为：
 	--Test
-   		--TestApp
-   		--TestModule
-   		--conf.json
+   	  --TestApp
+   	  --TestModule
+   	  --conf.json
    		
 #### tihelper build
 **tihelper build**是对**Titanium***的命令**ti build**的封装，这里，对命令行参数而言，只是做了一层代理，所以，**ti build**后面跟的所有命令行参数对**tihelper build** 一样适用。
