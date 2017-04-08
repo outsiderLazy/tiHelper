@@ -2,8 +2,18 @@
 tiHelper是一个基于Titanium的命令行程序，tiHelper封装了ti create 和 ti build命令，大大简化了Titanium module的开发调试过程，
 	
 ## 应用场景
-	1.同时创建Titanium的APP和Module；
-	2.一个命令实现module的编译、module的解压到APP，运行APP。
+
+ - 同时创建Titanium的APP和Module；
+ - 一个命令实现module的编译、module的解压到APP，运行APP。
+ 
+## 运行环境
+ - 操作系统:**win7及以上win32系统、macOS 10.9及以上**
+ - node版本：**0.12.0以上**
+ - Titanium编译运行需要的所有环境**（JAVA，Android SDK，NDK，ANT等）**
+
+## 重要提示
+    tiHelper是基于Titanium开发的脚手架，所以，使用tiHelper之前请先确保你的Titanium编译运行环境是正常的，否则，tihelper将无法正常工作。
+ 
 ## 安装
 使用tihelper模块之前，你必须先安装这个模块到你电脑上，作为命令行程序使用，应该**全局安装**
 
