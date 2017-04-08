@@ -15,9 +15,9 @@ npm install -g tihelper
 **tihelper**封装了**Titanium CLI**的**create**和**build**命令，用户在使用**tihelper**时，完全可以把他当成**titanium**的**CLI**来使用，只要把ti改成**tihelper**就OK了。
 
 #### tihelper create
-**tihelper create**是对**Titanium***的命令**ti create**的封装，当你在命令行输入**tihelper create**时，命令行会依次提示你输入**工程名称（Project Name）**、**包名（App ID）**、**个人或公司网址（Your company/personal URL）**和**工程生成目录（Directory to place project）**，
+**tihelper create**是对**Titanium***的命令**ti create**的封装，当你在命令行输入**tihelper create**时，命令行会依次提示你输入 **工程名称（Project Name）**、**包名（App ID）**、**个人或公司网址（Your company/personal URL）**和**工程生成目录（Directory to place project）**，
 	
-	tihelper create和使用Titanium CLI的ti create的区别是：
+	tihelper create和使用Titanium CLI的ti create的区别是： 
 	1..不需要选择是要生成APP还是Module。tihelper create命令会帮你生成一个APP和Module，
 	2.APP和Module之间会建立一个联系（通过conf.json记录两个工程的路径），这是下面要讲的tihelper build命令的基础。
 	3.目录结构不一样。假如我们执行ti helper的时候，输入的Project Name为Test.那么生成的目录结构为：
