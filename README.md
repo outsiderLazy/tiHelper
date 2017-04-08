@@ -19,7 +19,6 @@ tiHelper是一个基于Titanium的命令行程序，tiHelper封装了ti create �
 
 ```
 npm install -g tihelper
-
 ```
 ## 用法
 **tihelper**封装了**Titanium CLI**的**create**和**build**命令，用户在使用**tihelper**时，完全可以把他当成**titanium**的**CLI**来使用，只要把ti改成**tihelper**就OK了。
