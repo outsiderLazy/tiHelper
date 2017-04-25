@@ -1,7 +1,7 @@
 {
   "name": "tihelper",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A titanium script to simplify the development of ti module",
   "main": "build.js",
   "bin": {
     "tihelper": "./tihelper.js"
@@ -9,8 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outsiderLazy/tiHelper"
+  },
+  "author": "outsider",
   "license": "ISC",
+  "keyword":["ti","tihelper"],
   "dependencies": {
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",

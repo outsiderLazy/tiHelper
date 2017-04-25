@@ -1,5 +1,6 @@
 # tiHelper
 tiHelper是一个基于Titanium的命令行程序，tiHelper封装了ti create 和 ti build命令，大大简化了Titanium module的开发调试过程，
+
 	
 ## 应用场景
 
